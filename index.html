@@ -6,65 +6,276 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:600&display=swap" rel="stylesheet">
+
+
+
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    :root{
+      --pink:hsl(322, 100%, 66%);
+    }
+
+    body{
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      text-align: center;
+
+      margin: 0;
+      padding: 0;
+      
+      
+
+    }
+
+    h1, h2{
+      font-family: 'Poppins', sans-serif;
+      font-weight: bolder;
+    }
+    h1{
+      font-size: 32px;
+    }
+
+    p{
+      padding:20px;
+    }
+
+
+    img{
+      width: 100%;
+      margin: 10px 10px;
+    }
+
+    .logo{
+      float: left;
+      height: 22px;
+      width: auto;
+    }
+
+    
+
+    header{
+      background: url(images/bg-hero-mobile.svg) no-repeat;
+      background-color: hsl(193, 100%, 96%);
+      padding: 30px;
+    }
+
+    header h1{
+      margin: 120px 15px 40px 15px;
+    }
+    
+
+    header p{
+      font-size: 24px;
+    }
+
+  
+    .join-free{
+      background-color: white;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 9px 30px;
+      float: right;
+      border: none;
+
+      -moz-box-shadow: 0px 0px 16px 0px #e3e3e3;
+      -webkit-box-shadow: 0px 0px 16px 0px #e3e3e3;
+      box-shadow: 0px 0px 16px 0px #e3e3e3;
+      
+      border-radius:28px;
+      cursor:pointer;
+      
+
+    }
+
+    .pink{
+      background-color: var(--pink);
+      color: white;
+      margin: auto;
+      float: none;
+      padding: 18px 80px;
+      margin-bottom: 40px;
+    }
+
+    section{
+      
+      margin: 25px;
+      margin-top: 80px;
+      padding: 50px 10px 20px 10px;
+      border-radius: 25px;
+      background-color: white;
+      
+
+      -moz-box-shadow: 0px 0px 16px 0px #e3e3e3;
+      -webkit-box-shadow: 0px 0px 16px 0px #e3e3e3;
+      box-shadow: 0px 0px 16px 0px #e3e3e3;
+
+      z-index: +100;
+      position: relative;
+
+
+    }
+
+    section img{
+      width: 70%;
+    }
+
+    p{
+      color: hsl(208, 11%, 55%);
+    }
+
+    footer{
+      background-color: hsl(192, 100%, 9%);
+      margin-top: -120px;
+      z-index: -100;
+
+      padding-top: 130px;
+
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start;
+      
+    }
+
+    footer .logo{
+      height: 30px;
+      width: 200px;
+
+    }
+
+    footer li{
+      list-style: none;
+    }
+
+    
+
+
+    @media(max-width: 375px){
+      
+
+      
+    }
+
+
+
+   
   </style>
 </head>
 <body>
 
-  Try It Free
+  <header>
 
-  Build The Community Your Fans Will Love
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+    <img class="logo" src="images/logo.svg">
 
-  Get Started For Free
+    <button class="join-free">Try It Free</button>
 
-  Grow Together
+    <h1>Build The Community Your Fans Will Love</h1>
+    
+    <p>
+      Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+      Create connections with your users as you engage in genuine discussion. 
+    </p>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+    <button class="join-free pink">Get Started For Free</button>
+    
 
-  Flowing Conversations
+    <img src="images/illustration-mockups.svg">
 
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
+  </header>
+  
 
-  Your Users
 
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
 
-  Ready To Build Your Community?
+  <section class="grow-together">
+    <img src="images/illustration-grow-together.svg">
 
-  Get Started For Free
+    <h2>Grow Together</h2>
+    <p>
+      Generate meaningful discussions with your audience and build a strong, loyal community. 
+      Think of the insightful conversations you miss out on with a feedback form. 
+    </p>
+  </section>
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
 
-  +1-543-123-4567
-  example@huddle.com
 
-  About Us
-  What We Do
-  FAQ
+  <section class="flowing-conversations">
+    <img src="images/illustration-flowing-conversation.svg">
 
-  Career
-  Blog
-  Contact Us
 
-  &copy; Copyright 2018 Huddle. All rights reserved.
+    <h2>Flowing Conversations</h2>
+
+    <p>
+      You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+      have just-in-time loading for a more natural flow.
+    </p>
+  </section>
+
+  
+  
+
+
+  <section class="your-users">
+    <img src="images/illustration-your-users.svg">
+    
+    <h2>Your Users</h2>
+
+    <p>
+      It takes no time at all to integrate Huddle with your app's authentication solution. 
+    This means, once signed in to your app, your users can start chatting immediately.
+    </p>
+  </section>
+
+
+  <section class="ready-to-build">
+    <h2>Ready To Build Your Community?</h2>
+    
+    <button class="join-free pink">Get Started For Free</button>
+  </section>
+
 
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+    <img class="logo" src="images/white-logo.svg">
+  
+
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna aliqua
+    </div>
+
+    <div>
+      +1-543-123-4567
+    </div>
+
+    <div>
+      example@huddle.com
+
+    </div>
+    
+
+    <ul>
+      <li>About Us</li>
+      <li>What We Do</li>
+      <li>FAQ</li>
+      <li>Career</li>
+      <li>Blog</li>
+      <li>Contact Us</li>
+    </ul>
+    
+    
+    <p>
+      &copy; Copyright 2018 Huddle. All rights reserved.
     </p>
+    
+    
   </footer>
+  
+
 </body>
 </html>
