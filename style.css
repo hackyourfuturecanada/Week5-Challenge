@@ -1,0 +1,40 @@
+
+    body{
+      background-image: url("images/bg-hero-mobile.svg");
+      font-family: Open Sans;
+      Font size: 18px;
+      text-align: center;
+    }
+
+
+
+    #try {
+      border-radius:24px;
+      background-color: white;
+      width:150px;
+      font-weight: bold;
+
+
+    }
+
+     header {
+      display: flex;
+      width:100vw;
+      justify-content: space-between;
+      padding:10px 10px 100px 10px;
+    }
+
+      h1 {
+        font-family: Poppins;
+        text-align: center;
+
+      }
+      .free {
+        background-color:hsl(322, 100%, 66%);
+        border: none;
+        border-radius: 30px;
+        padding:20px;
+        color:white;
+
+
+      }
