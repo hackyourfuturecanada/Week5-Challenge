@@ -1,0 +1,22 @@
+header {
+  background-image:url("images/bg-hero-mobile.svg");
+  }
+
+  p {
+    font-family: 'Fira Sans', sans-serif;
+    color: gray;
+    font-size:18px;
+    text-align: center;
+    }
+
+  h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 32px;
+    color: #910BFF;
+    text-align: center;
+  }
+
+  img{
+    max-width: 250px;
+
+  }
