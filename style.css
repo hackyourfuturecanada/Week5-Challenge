@@ -1,0 +1,36 @@
+:root {
+  --pink:hsl(322, 100%, 66%);
+  --very-pale-cyan: hsl(193, 100%, 96%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --grayish-blue: hsl(208, 11%, 55%);
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.button-one {
+  border-radius: 12px;
+  background-color: var(--very-pale-cyan);
+  float: right;
+  width: 100px;
+}
+.button-two {
+  border-radius: 12px;
+  background-color: var(--pink);
+  margin:auto;
+  display: block;
+  width: 300px;
+}
+header {
+  background-image: url(images/bg-hero-mobile.svg);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
