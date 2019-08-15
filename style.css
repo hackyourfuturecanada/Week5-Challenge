@@ -1,0 +1,53 @@
+body{
+ background: url(images/bg-hero-mobile.svg)
+
+}
+
+section{
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 40px 10px 40px;
+  line-height: 1.6;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+}
+h2{
+  text-align: center;
+  font-size: 35px;
+}
+header{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+}
+button{
+  background-color: hsl(322, 100%, 66%);
+  width: 80%;
+  height: 70px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: white;
+  margin: 50px;
+  padding: 20px;
+  text-align:center;
+
+}
+
+img{
+  width: 400px;
+}
+footer{
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+.buttom{
+  background-color: black;
+  color: white;
+  height: 50px;
+}
